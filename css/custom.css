@@ -1,0 +1,119 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul {
+	list-style-type: none;
+	margin: -40px 0 0 37%;
+	padding: 0;
+}
+
+.nav li {
+	float: left;
+}
+
+li a {
+	display: block;
+	width: 125px;
+	font-size: 24px;
+	padding-right: 60px;
+	color: black;
+	
+}
+
+a:hover {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+
+a:active {
+	font-size: 30px;
+}
+
+.active {
+	text-shadow: 3px 3px rgb(0,255,255);
+	font-weight: bold;
+}
+
+#top {
+	margin: 0 15%;
+}
+
+.hero {
+	text-align: center;
+	padding-top:120px;
+	width: 100%;
+}
+
+.hero h1 {
+	margin-left: -3%;
+
+}
+
+.leaf-1 {
+	float: left;
+	padding-top: 20px;
+}
+
+.leaf-2 {
+	margin-right: 30%;
+	float: right;
+}
+
+hr {
+	height: 12px;
+	border: 0;
+	border-top: 2px solid;
+	box-shadow: inset 0 12px 12px -12px rgb(0,255,255);
+	margin: 40px 10% 80px;
+}
+
+#middle {
+	width: 100%;	
+}
+
+
+.first, .other-column {
+	text-align: center;
+	font-size: 18px;
+}
+
+.first {
+	margin-left: 7%;
+	margin-right: 0;
+}
+
+.other-column {
+	margin-left: 5%; 
+}
+
+.first img, .other-column img {
+	margin-bottom: 80px;
+}
+
+.branches {
+	width: 100%;
+	height: 200px;
+	margin-top: -60px;
+}
+
+#bottom {
+	margin: 80px;
+}
+
+.antlers {
+	width: 100%;
+}
+
+.contact {
+	text-align: center;
+	font-size: 18px;
+	
+}
